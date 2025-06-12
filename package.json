@@ -1,0 +1,20 @@
+{
+  "name": "weather-app-typescript",
+  "version": "1.0.0",
+  "description": "Aplikasi cuaca menggunakan TypeScript dengan Enum",
+  "main": "dist/weatherApp.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/weatherApp.js",
+    "dev": "ts-node weatherApp.ts"
+  },
+
+  "devDependencies": {
+    "@types/node": "^24.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+
+  "author": "Student USK",
+  "license": "MIT"
+}
